@@ -11,6 +11,9 @@ temp.jpg
 __pycache__/
 *.pyc
 
+# Dados de análise (banco de dados gerado em tempo de execução)
+data/
+
 # Arquivos de sistema
 .DS_Store
 Thumbs.db

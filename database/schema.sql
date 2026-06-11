@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS analyses (
+
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+
+    data TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    tipo TEXT,
+
+    score INTEGER,
+
+    categoria TEXT,
+
+    texto TEXT
+);
